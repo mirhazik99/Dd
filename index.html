@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Download Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <!-- Pop-up -->
+        <div id="popup" class="popup">
+            <p>Downloading Files...</p>
+            <div id="progress-container" class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <p id="download-speed">Speed: 0 MB/s</p>
+            <p id="progress-text">0/1GB</p>
+        </div>
+
+        <!-- End message -->
+        <div id="end-message" class="end-message">
+            <p>Server Connected</p>
+            <p>Files Connected</p>
+            <p id="ram-message">Not Enough RAM to Run!</p>
+            <p>Please Visit The Developer Hub!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
