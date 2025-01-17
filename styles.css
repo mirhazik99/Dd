@@ -1,0 +1,53 @@
+/* Set background to black */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the popup window */
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2c2f38;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Style the progress bar container */
+.progress-container {
+    width: 100%;
+    background-color: #444;
+    border-radius: 5px;
+    margin: 10px 0;
+    height: 20px;
+}
+
+.progress-bar {
+    width: 0;
+    background-color: green;
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.1s;
+}
+
+/* End message styling */
+.end-message {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#ram-message {
+    color: red;
+}
